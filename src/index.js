@@ -117,3 +117,15 @@ function calculateWinner(squares){
   }
   return null;
 }
+
+/*Este proyecto presentaba un error a la hora de hacer los commit ya que el origin estaba seteado para otra direccion lo cual
+al intentar pushear el proyecto a github causaba un error:
+git remote add origin https://github.com/gonzabl/tic-tac-toe.gittac-toe.git
+"fatal: remote origin already exists." -> este es el error.
+
+la solucion fue setear correctamente la direccion del repositorio de github a la cual queremos pushear por medio de :
+git remote set-url origin https://github.com/gonzabl/tic-tac-toe.git
+
+luego podemos pushear a nuestro repositorio con el comando:
+git push -u origin master
+ */
