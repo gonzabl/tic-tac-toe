@@ -90,6 +90,8 @@ class Game extends React.Component {
 
 // ========================================
 
+// falta separar los componentes
+
 ReactDOM.render(
   <Game />,
   document.getElementById('root')
